@@ -151,7 +151,7 @@ const FilesDragAndDrop: React.FC<FilesDragAndDropProps> = ({
   return (
     <div 
       ref={dropRef}
-      className="relative w-full h-full p-[50px] flex items-center justify-center flex-col border-2 border-dashed border-gray-300 rounded-xl text-2xl text-gray-600"
+      className="relative w-full h-full p-[50px] flex items-center justify-center flex-col border-2 border-dashed border-gray-300 rounded-xl text-2xl text-gray-600 z-10"
     >
       {(
         <div className={`
