@@ -12,15 +12,7 @@ export default function Home() {
       <FilesDragAndDrop
         onUpload={onUpload}
         count={1}
-        formats={["jpg", "png", "gif"]}
-      >
-        <div className="w-full h-full p-[50px] flex items-center justify-center flex-col text-2xl text-gray-600 border-2 border-dashed border-gray-300 rounded-xl">
-          传下文件试试？
-          <span role="img" aria-label="emoji" className="text-6xl mt-5">
-            &#128526;
-          </span>
-        </div>
-      </FilesDragAndDrop>
+        formats={["jpg", "png", "gif"]}/>
     </div>
   );
 }
